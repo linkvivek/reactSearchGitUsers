@@ -37,7 +37,7 @@ class App extends React.Component {
           </div>
           </div>
           <ul className="list-group">
-            {this.state.userData !== '' && (
+            {this.state.userData && (
             this.state.userData.map((d) => (
               <li>{d.login}</li>
             ))          
